@@ -2,6 +2,7 @@
   const input = document.getElementById('input');
   const output = document.getElementById('output');
   const decodeBtn = document.getElementById('decodeBtn');
+  const copyBtn = document.getElementById('copyBtn');
   const clearBtn = document.getElementById('clearBtn');
   const status = document.getElementById('status');
 
@@ -82,6 +83,20 @@
     status.textContent = method === 'none' ? 'No decode applied.' : `Decoded using: ${method}`;
   });
 
+  copyBtn.addEventListener("click", () => {
+  if (!output.value.trim()) return;
+
+  navigator.clipboard.writeText(output.value)
+    .then(() => {
+      copyBtn.textContent = "Copied!";
+      setTimeout(() => (copyBtn.textContent = "Copy"), 1200);
+    })
+    .catch(() => {
+      copyBtn.textContent = "Failed";
+      setTimeout(() => (copyBtn.textContent = "Copy"), 1200);
+    });
+});
+  
   clearBtn.addEventListener('click', () => {
     input.value = '';
     output.value = '';
