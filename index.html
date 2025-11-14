@@ -46,6 +46,11 @@
       display: flex;
       margin-bottom: 12px;
     }
+    #copyBtn {
+      background: #008f4c;
+      flex: none;
+      margin-left: 8px;
+    }
     #status {
       font-size: 14px;
       color: #aaa;
@@ -58,11 +63,15 @@
 <body>
   <h1>JS Decode Helper</h1>
   <textarea id="input" placeholder="Paste your encoded JS here..."></textarea>
+
   <div id="buttons">
     <button id="decodeBtn">Decode</button>
     <button id="clearBtn">Clear</button>
+    <button id="copyBtn">Copy</button>
   </div>
+
   <div id="status"></div>
+
   <textarea id="output" placeholder="Decoded result will appear here..." readonly></textarea>
 
   <script src="main.js"></script>
