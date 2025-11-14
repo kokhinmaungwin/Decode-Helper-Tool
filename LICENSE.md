@@ -22,3 +22,19 @@ SOFTWARE.
 
 Note: The maintainer or administrator of this repository assumes no responsibility or liability
 for any misuse of this code, including risks associated with executing decoded or eval'ed code.
+
+Free access to this software and related documentation; Permission to copy; right to amend
+right to combine; right to publish including distribution rights (including sub-license) and sales rights
+Allowed without restriction.
+
+However, with the above copyright information
+This permission text is required to be included in all copies of the Software.
+
+This software is in an “as is” condition
+Distributed without warranty.
+merchantability; appropriateness; and including usage hacking
+NO LEGAL WARRANTY.
+
+ARISING OUT OF THE SOFTWARE OR YOUR USE OF IT
+farewell damage or for other adverse effects
+religion business contract; or no legal liability.
